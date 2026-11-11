@@ -58,7 +58,6 @@ export const doors: { title: string; blurb: string; icon: IconName; chips: strin
     chips: [
       "Frappe Framework",
       "ERPNext",
-      "Frappe HR",
       "Custom Apps",
       "Doctypes & Hooks",
       "Print Formats",
@@ -71,37 +70,37 @@ export const doors: { title: string; blurb: string; icon: IconName; chips: strin
     title: "Databases",
     icon: "db",
     blurb: "Schemas and queries built around how the business actually works.",
-    chips: ["MySQL", "PostgreSQL"],
+    chips: ["MySQL", "PostgreSQL", "AWS RDS", "AWS S3", "MariaDB"],
   },
   {
     title: "Cloud & Tools",
     icon: "cloud",
     blurb: "Shipping and running what I build.",
-    chips: ["Git & GitHub", "Linux", "AWS (fundamentals)", "Docker (basics)", "Kubernetes (basics)", "Terraform (basics)"],
+    chips: ["Git & GitHub", "CI/CD", "AWS (fundamentals)", "Linux", "Docker (basics)", "Kubernetes (basics)", "Terraform (basics)"],
   },
 ];
 
 export const timeline = [
   {
-    when: "29 Jun 2026 – 31 Oct 2026",
+    when: "Jun 26 – Oct 26",
     title: "Python Developer Intern",
     org: "Wahni IT Solutions Private Limited",
     text: "Built custom Frappe apps for clients: print formats, mobile app backends, doctype automation and reports.",
   },
   {
-    when: "27 Sep 2026",
+    when: "Sep 2026",
     title: "AI Tools & Claude Workshop",
     org: "be10x",
     text: "Completed the workshop and certificate on using AI tools in everyday development work.",
   },
   {
-    when: "Internship",
+    when: "Jun 25 – Jun 26",
     title: "Python Full Stack Developer Intern",
     org: "SMEC Technologies, Kochi",
     text: "Worked on full stack features with Python, Django and React.",
   },
   {
-    when: "Degree",
+    when: "2021 – 2025",
     title: "B.Tech, Computer Science and Engineering",
     org: "Thejus Engineering College, Thrissur",
     text: "Where it started: data structures, databases and the first real projects.",
