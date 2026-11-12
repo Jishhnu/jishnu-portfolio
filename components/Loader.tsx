@@ -24,13 +24,13 @@ export default function Loader() {
     let v = 0;
     let t: ReturnType<typeof setTimeout> | undefined;
     const iv = setInterval(() => {
-      v = Math.min(100, v + 3 + Math.floor(Math.random() * 9));
+      v = Math.min(100, v + 8 + Math.floor(Math.random() * 11));
       setN(v);
       if (v >= 100) {
         clearInterval(iv);
         t = setTimeout(finish, 250);
       }
-    }, 70);
+    }, 45);
     return () => {
       clearInterval(iv);
       if (t) clearTimeout(t);
